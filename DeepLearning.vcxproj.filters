@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{357c81f6-6646-4cd1-b3cd-4a28e3e049bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cvip_pgmtexture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Harilick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="K_means.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="kmeans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LBP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LBP_pro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trans.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="k-meansv2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CVIPdef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVIPtexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CVIPtyp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="K_means.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LBP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ppbm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ppbmplus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ppgm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="k-meansv2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\OpenCVConfig.cmake">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="lib\新建文本文档.txt">
+      <Filter>lib</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\opencv_calib3d246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_calib3d246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_contrib246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_contrib246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_core246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_core246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_features2d246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_features2d246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_flann246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_flann246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_gpu246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_gpu246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_haartraining_engine.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_haartraining_engined.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_highgui246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_highgui246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_imgproc246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_imgproc246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_legacy246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_legacy246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ml246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ml246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_nonfree246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_nonfree246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_objdetect246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_objdetect246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ocl246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ocl246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_photo246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_photo246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_stitching246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_stitching246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_superres246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_superres246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ts246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_ts246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_video246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_video246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_videostab246.lib">
+      <Filter>lib</Filter>
+    </Library>
+    <Library Include="lib\opencv_videostab246d.lib">
+      <Filter>lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
