@@ -49,6 +49,7 @@ public:
 	float * buf2float(unsigned char *buf);
 	void writeImagesesmicarray(void * src, long long l ,long long m, long long n);
 	void writeImageSesmicRecursive(void * src, long long l ,long long m, long long n);
+	void writeBuf(int * buf,long long size);
 	void save();
 };
 

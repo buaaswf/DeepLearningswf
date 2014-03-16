@@ -41,7 +41,7 @@ void RawImage::readImage(unsigned char * buf,char const *file ,long long size)
 		printf("open fail");
 	}
 	//unsigned char * unsignedbuf=new unsigned char[size];
-	fseek(op,281*481*1500L,SEEK_SET);
+	fseek(op,989*1241*160L,SEEK_SET);
 	fread(buf,sizeof(unsigned char),size,op);
 
 	fclose(op);
@@ -148,6 +148,21 @@ void RawImage::writeImage(Raw &destImg)
 
 	delete[] data;
 	printf("write is ok");
+}
+void RawImage::writeBuf(int * buf,long long size)
+{
+	unsigned char *data=new unsigned char[size];
+	for (int i=0;i<size;i++)
+	{
+		data[i]=(unsigned char)31*buf[i];
+	}
+	FILE *p = fopen("F:\\kmeasns.raw","wb");
+	fwrite(data, sizeof(unsigned char), size, p);
+	fclose(p);
+	fflush(stdout);
+	delete [] data;
+	//delete[] data;
+
 }
 void RawImage::writeImagesesmic(Raw &destImg)
 {
